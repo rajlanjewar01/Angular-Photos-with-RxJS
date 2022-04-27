@@ -15,6 +15,6 @@ export class PhotosService {
   constructor(private http: HttpClient) { }
 
   getPhoto() {
-    return this.http.get<UnsplashResponse>('https://api.unsplash.com/photos/?client_id=Qn7fxcNohyy76xAgGBtkLdFEgR4A3sLReao3ohj8js4');
+    return this.http.get<UnsplashResponse>('-provide api key of Unsplash.com-');
   }
 }
